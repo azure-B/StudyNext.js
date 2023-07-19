@@ -1,3 +1,5 @@
-export default function home() {
-  return <div>hello Components 진입시점</div>;
-}
+const Page = () => {
+  return <div>hello</div>;
+};
+
+export default Page;
