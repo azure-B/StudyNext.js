@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 export default function NevBar() {
   return (
     <>
       <div>
-        <a href="/">HOME</a>
+        <Link href="/">HOME</Link>
       </div>
       <div>
-        <a href="/about">ABOUT</a>
+        <Link href="/about">ABOUT</Link>
       </div>
     </>
   );
